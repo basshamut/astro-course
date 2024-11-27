@@ -1,7 +1,7 @@
 ---
 title: Designing Hexagonal Architecture with Java
 description: Learn how to design and implement Hexagonal Architecture in Java to build maintainable and testable applications.
-img: HexagonalArchitectureJava.png
+img: hexagonal_fixed.png
 buy:
     spain: amazon.es
     usa: amazon.com
