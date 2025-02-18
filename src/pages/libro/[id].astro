@@ -24,7 +24,7 @@ const {Content} = await render(book);
             <img transition:name={`img-${book.id}`} src={`/astro-course/${img}`} alt={title} class="rounded w-72 h-auto"/>
             {
                 SHOW_BUY_BUTTON && (
-                    <a href={book.data.buy.spain} class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Comprar</a>
+                    <a href={book.data.buy.spain} class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" target="_blank">Comprar</a>
                 )
             }
         </aside>
