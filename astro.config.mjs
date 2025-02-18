@@ -11,5 +11,8 @@ export default defineConfig({
     schema:{
       SHOW_BUY_BUTTON: envField.boolean({context: "server", access: "public"}),
     }
-  }
+  },
+  output: 'static',  // Indica que queremos una salida estática
+  site: 'https://basshamut.github.io/', // Reemplaza con tu usuario/repositorio de GitHub
+  base: '/astro-course/' // IMPORTANTE si el repo no es "tu-usuario.github.io"
 });
