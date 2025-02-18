@@ -3,8 +3,7 @@ title: Curso de Kotlin
 description: Aprende los conceptos básicos de Kotlin, un lenguaje de programación moderno y seguro que se ejecuta en la JVM y es compatible con Java.
 img: kotlin_fixed.png
 buy:
-    spain: amazon.es
-    usa: amazon.com
+    spain: https://www.studocu.com/es/document/ilerna/desarrollo-de-aplicaciones-multiplataforma/curso-kotlin-apuntes-1234567/24103966
 link: kotlin
 ---
 # Introducción a Kotlin

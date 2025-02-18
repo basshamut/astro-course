@@ -3,8 +3,7 @@ title: Springboot Arquitectura de Backend
 description: Aprende a desarrollar aplicaciones robustas con Spring Boot y Java 17, aprovechando las características modernas del lenguaje y la productividad del framework.
 img: springboot_fixed.png
 buy:
-    spain: amazon.es
-    usa: amazon.com
+    spain: https://www.amazon.es/Spring-Boot-2022-Espa%C3%B1ol-Arquitectura-ebook/dp/B0BGJK3GHD
 link: springboot    
 ---
 
