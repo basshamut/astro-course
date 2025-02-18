@@ -3,7 +3,7 @@ name: Deploy Astro to GitHub Pages
 on:
   push:
     branches:
-      - master # Cambia si tu rama principal tiene otro nombre
+      - main  # Cambia si usas otra rama principal
 
 permissions:
   contents: read
@@ -29,10 +29,10 @@ jobs:
       - name: Construir el sitio
         run: npm run build
 
-      - name: Subir a GitHub Pages
-        uses: actions/upload-pages-artifact@v2
+      - name: Subir archivos estáticos para GitHub Pages
+        uses: actions/upload-pages-artifact@v4
         with:
           path: dist
 
       - name: Desplegar en GitHub Pages
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
