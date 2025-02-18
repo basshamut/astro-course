@@ -5,6 +5,7 @@ img: springboot_fixed.png
 buy:
     spain: amazon.es
     usa: amazon.com
+link: springboot    
 ---
 
 # Introducción a Spring Boot con Java 17

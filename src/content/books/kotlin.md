@@ -5,6 +5,7 @@ img: kotlin_fixed.png
 buy:
     spain: amazon.es
     usa: amazon.com
+link: kotlin
 ---
 # Introducción a Kotlin
 

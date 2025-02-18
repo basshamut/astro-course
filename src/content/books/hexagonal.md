@@ -5,6 +5,7 @@ img: hexagonal_fixed.png
 buy:
     spain: amazon.es
     usa: amazon.com
+link: hexagonal
 ---
 
 # Understanding Hexagonal Architecture with Java
