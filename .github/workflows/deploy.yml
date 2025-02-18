@@ -27,6 +27,8 @@ jobs:
         run: npm install
 
       - name: Construir el sitio
+        env:  # Define la variable de entorno aquí
+          SHOW_BUY_BUTTON: true  # O el valor que necesites
         run: npm run build
 
       - name: Subir archivos para GitHub Pages
