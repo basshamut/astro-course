@@ -20,8 +20,8 @@ const {Content} = await render(book);
 <Layout title={`${title} - Dev Books`}>
     <div class="flex gap-12">
         <aside class="flex flex-col items-center gap-4">
-            <a href="/" class="hover:underline opacity-70">← Volver</a>
-            <img transition:name={`img-${book.id}`} src={`/${img}`} alt={title} class="rounded w-72 h-auto"/>
+            <a href="/astro-course/" class="hover:underline opacity-70">← Volver al inicio</a>
+            <img transition:name={`img-${book.id}`} src={`/astro-course/${img}`} alt={title} class="rounded w-72 h-auto"/>
             {
                 SHOW_BUY_BUTTON && (
                     <a href={book.data.buy.spain} class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Comprar</a>
